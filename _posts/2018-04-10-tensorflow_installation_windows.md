@@ -19,7 +19,7 @@ Tensorflow is a famous deep learning library in python developed by Google. In t
 
 * Double  click on the file and click next until you find following screen where you should select both options,
 
-<img src="https://raw.githubusercontent.com/awaisrauf/ashwath/master/_posts/images/1_fig1.PNG" alt="Select both options." style="width: 550px;"/>
+<img class="post_img" src="https://raw.githubusercontent.com/awaisrauf/ashwath/master/_posts/images/1_fig1.PNG" alt="Select both options." />
 
 If you select both options in this screen, anaconda will be automatically added to your PATH environment.
 
@@ -46,14 +46,13 @@ Notice tensorflow before C:>? This shows that tensorflow environment is now on.
 
 ### Step 4: Install Tensorflow
 Write following command to install tensorflow,
-
 ```console
 (tensorflow)C:>  conda install -c conda-forge tensorflow 
 ```
 
 Following screen will appear, type y and enter and tensorflow will be installed.
 
-<img src="https://raw.githubusercontent.com/awaisrauf/ashwath/master/_posts/images/1_fig2.PNG" alt="command prompt when you install tensorflow." style="width: 550px;"/>
+<img class="post_img" src="https://raw.githubusercontent.com/awaisrauf/ashwath/master/_posts/images/1_fig2.PNG" alt="command prompt when you install tensorflow." />
 
 ### Step 5: Confirm Installation 
 Invoke python in the same prompt by writing following command in the same command prompt,
