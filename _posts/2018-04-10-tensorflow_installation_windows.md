@@ -9,7 +9,6 @@ categories: basics
 author: Awais
 ---
 
-# Tensorflow Installation Guide
 Tensorflow is a famous deep learning library in python developed by Google. In this tutorial, you will learn to install tensorflow on a windows pc, step by step. 
 
 ### Step 1: Install Anaconda 
