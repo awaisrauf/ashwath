@@ -13,10 +13,15 @@ author: Awais
 Tensorflow is a famous deep learning library in python developed by Google. In this tutorial, you will learn to install tensorflow on a windows pc, step by step. 
 
 ### Step 1: Install Anaconda 
-*  Anaconda is a distribution of python which simplifies its package management therefore we choose to install it for python. To install Anaconda, go to anaconda website [Download Anaconda](https://www.anaconda.com/download/#windows) and download 64 bit or 32 bit file according to your system specifications. 
+*  Anaconda is a distribution of python which simplifies its package management therefore we choose to install it for python.
+
+* To install Anaconda, go to [anaconda website](https://www.anaconda.com/download/#windows) and download 64 bit or 32 bit file according to your system specifications. 
+
 * Double  click on the file and click next until you find following screen where you should select both options,
 
-<img src="https://raw.githubusercontent.com/awaisrauf/ashwath/master/_posts/images/1_fig1.png" alt="Select both options." style="width: 300px;"/>
+<img src="https://raw.githubusercontent.com/awaisrauf/ashwath/master/_posts/images/1_fig1.PNG" alt="Select both options." style="width: 450px;"/>
+
+If you select both options in this screen, anaconda will be automatically added to your PATH environment.
 
 ### Step 2: Create New Anaconda Environment 
 * Open command prompt and type following command to create a new environment. 
@@ -48,7 +53,7 @@ Write following command to install tensorflow,
 
 Following screen will appear,
 
-<img src="https://raw.githubusercontent.com/awaisrauf/ashwath/master/_posts/images/1_fig2.PNG" alt="command prompt when you install tensorflow." style="width: 300px;"/>
+<img src="https://raw.githubusercontent.com/awaisrauf/ashwath/master/_posts/images/1_fig2.PNG" alt="command prompt when you install tensorflow." style="width: 450px;"/>
 
 Type y and enter and tensorflow will be installed.
 ### Step 5: Confirm Installation 
