@@ -1,8 +1,8 @@
 <div>
   {% if page.previous.url %}
-    <button align="left" class="button buttonPerivious" formaction="{{page.previous.url}}">&laquo; Previous Tutorial</button>
+    <a align="left" class="button buttonPerivious" href="{{page.previous.url}}">&laquo; Previous Tutorial</a>
   {% endif %}
   {% if page.next.url %}
-    <button class="button buttonNext" formaction="{{page.next.url}}">Next Tutorial &raquo;</button>
+    <a class="button buttonNext" href="{{page.next.url}}">&raquo; Next Tutorial</a>
   {% endif %}
 </div>
