@@ -15,7 +15,7 @@ Tensorflow is a famous deep learning library in python developed by Google. In t
 ### Step 1: Install Anaconda 
 *  Anaconda is a distribution of python which simplifies its package management therefore we choose to install it for python.
 
-* To install Anaconda, go to [anaconda website](https://www.anaconda.com/download/#windows) and download 64 bit or 32 bit file according to your system specifications. 
+* To install anaconda, go to <a href="https://www.anaconda.com/download/#windows" target="_blank">anaconda website</a> and download 64 bit or 32 bit file according to your system specifications. 
 
 * Double  click on the file and click next until you find following screen where you should select both options,
 
