@@ -3,9 +3,9 @@ layout: page
 permalink: /basics/
 title: Basics of Tensorflow!
 ---
-huyy
   <div class="post-list">
-    {% for post in site.categories.basics %}
+    {% assign sortedPosts = site.categories.basics| sort: 'page_number' %}
+    {% for post in sortedPosts %}
      <a href="{{ post.url | prepend: site.baseurl }}">
         {% include post-cards.html %}
       </a>
