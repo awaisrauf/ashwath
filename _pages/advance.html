@@ -5,7 +5,8 @@ title: Advance Tutorials on Tensorflow!
 ---
 
  <div class="post-list">
-    {% for post in site.categories.design %}
+    {% assign sortedPosts = site.categories.design| sort: 'page_number' %}
+    {% for post in sortedPosts  %}
      <a href="{{ post.url | prepend: site.baseurl }}">
       {% include post-cards.html %}
       </a>

@@ -5,7 +5,8 @@ title: Projects
 ---
 
  <div class="post-list">
-    {% for post in site.categories.projects %}
+    {% assign sortedPosts = site.categories.code| sort: 'page_number' %}
+    {% for post in sortedPosts %}
      <a href="{{ post.url | prepend: site.baseurl }}">
         {% include post-cards.html %}
       </a>
