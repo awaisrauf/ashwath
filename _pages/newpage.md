@@ -1,3 +1,9 @@
+---
+layout: page
+title: About
+permalink: /about/
+show-in-menu: yes
+---
 <!DOCTYPE html>
 <html>
   <head>
